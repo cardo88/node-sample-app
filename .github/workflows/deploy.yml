@@ -23,7 +23,7 @@ jobs:
 
     - name: Copy files to server
       run: |
-        scp -r . ${{ secrets.USERNAME }}@${{ secrets.SERVER_IP }}:/home/${{ secrets.USERNAME }}/node-sample-app/
+        scp -r * ${{ secrets.USERNAME }}@${{ secrets.SERVER_IP }}:/home/${{ secrets.USERNAME }}/node-sample-app/
 
     - name: Deploy container
       run: |
