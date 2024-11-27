@@ -4,7 +4,7 @@ const app = express();
 
 // Configuración de conexión a la base de datos
 const db = mysql.createConnection({
-  host: '10.0.0.6', // Cambia esto según la IP de tu servidor de base de datos
+  host: '52.186.74.58', // Cambia esto según la IP de tu servidor de base de datos
   user: 'wpuser',
   password: 'Lunes.123',
   database: 'exampledb' // Asegúrate de crear esta base de datos
